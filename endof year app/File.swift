@@ -17,7 +17,7 @@ struct Password {
    
 }
 
-let samplePassword = Password(username: username, password: Password, savepasswords: savepasswords, notes: String, wedsite: <#T##String#>, newnumber: <#T##String#>)
+let samplePassword = Password(username: "username", password: "Password", savepasswords: "savepasswords", notes: "notes", wedsite: "wedsite", newnumber: "newnumber")
 struct PasswordDetail: View {
     let password: Password1
 
